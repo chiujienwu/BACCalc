@@ -1,0 +1,37 @@
+h1, h3 { color: blueviolet; }
+
+label {
+    float: none;
+    width: 15em;
+    display: block;
+    clear: both;
+}
+
+.tables {
+    display: table;
+}
+
+.cells {
+    display: table-cell;
+    height: 65px;
+    vertical-align: top;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    border-top: thin gray dotted;
+}
+
+#beerPic span {
+    background-image: url(images/beers.png);
+    background-repeat: no-repeat;
+}
+
+.holder {
+    /*border: thin black dotted;*/
+}
+
+.holder span {
+    width: 30px;
+    height: 58px;
+    display: inline-block;
+    margin-left: 10px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Alcohol Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<script src="obf.js"></script>
+
+
+<body>
+<h1>Blood Alcohol Calculator</h1>
+
+<form id="bacForm">
+    <div class="tablish">
+        <div class="cellish">
+            <label for="numBeers">Number of Beers Consumed</label>
+            <input type="text" name="numBeers" id="numBeers" value="2">
+        </div>
+        <div class="cellish holder" id="beer">
+            One beer has 0.54 oz of alcohol.
+        </div>
+    </div>
+
+    <div class="tablish">
+        <div class="cellish">
+            <label for="numWine">Glasses of Wine Consumed</label>
+            <input type="text" name="numWine" id="numWine" value="0">
+        </div>
+        <div class="cellish holder" id="wine">
+            One glass of wine has 0.60 oz of alcohol.
+        </div>
+    </div>
+
+
+    <div class="tablish">
+        <div class="cellish">
+            <label for="numShots">Number of Shots Consumed</label>
+            <input type="text" name="numShots" id="numShots" value="0">
+        </div>
+        <div class="cellish holder" id="shots">
+            One shot of liquor has 0.60 oz of alcohol.
+        </div>
+    </div>
+
+
+    <div class="tablish">
+        <div class="cellish">
+            <div>
+                <label for="weight">Your Weight in Pounds</label>
+                <input type="text" name="weight" id="weight" value="150">
+            </div>
+            <div>
+                <label for="hours">Hours Since Your First Drink</label>
+                <input type="text" name="hours" id="hours" value="1">
+            </div>
+        </div>
+        <div class="cellish" id="output"></div>
+    </div>
+
+
+    <div class="tablish">
+
+    </div>
+
+
+    <p>
+        <input type="submit" name="submitButton" id="submitButton" value="Calculate My BAC">
+    </p>
+</form>
+
+</body>
+</html>

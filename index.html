@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="Calc.js"></script>
+</head>
+
+
+<body>
+
+<h1>Blood Alcohol Content Calculator</h1>
+
+<form id="bacForm">
+
+    <div class="tables">
+        <div class="cells">
+            <label for="numBeers">Number of Beers Consumed: </label>
+            <input type="number" name="numBeers" id="numBeers" min="0" max="99" value="0" size="3" maxlength="2">
+        </div>
+        <div class="cells holder" id="beerPic">
+            One beer has 0.54 oz of alcohol.
+        </div>
+    </div>
+
+    <div class="tables">
+        <div class="cells">
+            <label for="numWine">Number of Glasses Consumed: </label>
+            <input type="number" name="numWine" id="numWine" min="0" max="99" value="0" size="3" maxlength="2">
+        </div>
+        <div class="cells holder" id="winePic">
+            One glass of wine has 0.60 oz of alcohol.
+        </div>
+    </div>
+
+    <div class="tables">
+        <div class="cells">
+            <label for="numShots">Number of Shots Consumed: </label>
+            <input type="number" name="numShots" id="numShots" min="0" max="99" value="0" size="3" maxlength="2">
+        </div>
+        <div class="cells holder" id="shotPic">
+            One shot of liquor has 0.60 oz of alcohol.
+        </div>
+    </div>
+
+    <div class="tables">
+        <div class="cells">
+            <label for="weight">Your Weight in Lbs: </label>
+            <input type="number" name="weight" id="weight" min="0" max="999" value="75" size="5" maxlength="4">
+        </div>
+    </div>
+
+    <div class="tables">
+        <div class="cells">
+            <label for="hoursDrink">Number of hours since first drink: </label>
+            <input type="number" name="hoursDrink" id="hoursDrink" min="0" max="24" value="1" size="2" maxlength="3">
+        </div>
+    </div>
+
+    <bold>Your Blood Alcohol Content (BAC) is </bold>
+    <p></p>
+
+    <div class="tablish">
+
+    </div>
+    <p>
+        <input type="submit" name="submitButton" id="submitButton" value="Calculate My BAC">
+    </p>
+
+</form>
+
+
+</body>
+
+
+</html>
