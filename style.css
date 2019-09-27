@@ -35,3 +35,7 @@ label {
     display: inline-block;
     margin-left: 10px;
 }
+
+.output {
+    font-weight: bold;
+}
